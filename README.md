@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# Bad Bank
+
+This project demonstrates tha basic workings of dataflow through components.
+The first step is to create a new account then login.
+The `withdraw` and `deposit` features of the bank are hidden until the user has logged in.
+All the credentials that are created are visible on the `All Data` tab, as well as each account's current balance.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Made With:
+### npx create-react-app
+### npm install bootstrap
+### npm install react-bootstrap
+### npm install react-router-dom
+### npm install formik
+### npm install axios
+
+
 
 ## Available Scripts
 
@@ -9,10 +24,10 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload if you make edits.\
+You will also see errors in the console if they exist.
 
 ### `npm test`
 
@@ -31,13 +46,16 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+
+
 
 ## Learn More
 

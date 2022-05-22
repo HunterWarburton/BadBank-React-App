@@ -9,19 +9,7 @@ import AllData from './components/AllData/alldata';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
-import * as bootstrap from "bootstrap";
-
-
 function App() {
-
-
-  document.addEventListener("DOMContentLoaded", function(){
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-    var tooltipList = tooltipTriggerList.map(function(element){
-        return new bootstrap.Tooltip(element);
-    });
-  });
-
   return (
    <HashRouter>
     <div className="container-fluid">
